@@ -1,0 +1,4 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+A: It creates the meta file, without which you can't commit or track changes.
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+A: The staging area is where versions of files (with changes up to the ADD) are stored before committing. It's awesome! It allows you to preserve changes in a file before committing them, but also allows you to bundle everything up before committing.
